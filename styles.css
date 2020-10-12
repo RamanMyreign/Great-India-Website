@@ -1,11 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    background-image: url('./img/indian-art-wallpaper-preview.jpg');
+    line-height: 400px;
+    margin-top: 10px;
+
+}
 nav{
     background-color: darkblue;
     height: 70px;
+    
 
 }
 nav ul li{
     display: inline-block;
-    margin:0px 45px;
+    margin:0px 23px;
     padding: 10px;
 }
 nav ul a{
@@ -19,4 +30,17 @@ nav ul a{
 }
 nav ul a:hover{
     background-color: rgb(207, 215, 226);
+}
+.sub-heading{
+    margin:30px 0px;
+    background-color: yellow;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+.freedom-fighters img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    padding: 15px;
 }
