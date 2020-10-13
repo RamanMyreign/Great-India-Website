@@ -11,6 +11,7 @@
 nav{
     background-color: darkblue;
     height: 70px;
+    width: 100%;
     
 
 }
@@ -25,7 +26,9 @@ nav ul a{
     font-size: 25px;
     text-decoration: none;
     display: block;
+    border-radius: 8px;
     padding: 0px 10px;
+    transition: 0.8s;
     
 }
 nav ul a:hover{
@@ -38,9 +41,30 @@ nav ul a:hover{
     font-size: 30px;
     text-align: center;
 }
-.freedom-fighters img{
+html {
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+}
+
+.images{
     height: 250px;
-    width: 250px;
+    width: 270px;
     float: left;
     padding: 15px;
+}
+#freedom-fighters::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#political-leaders::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#sports-leader::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 }
